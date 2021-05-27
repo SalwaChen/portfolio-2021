@@ -5,6 +5,9 @@ import {
   faInstagram,
   faYoutube,
   faFacebook,
+  faTwitter,
+  faLinkedin,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import "./SocialIcons.scss";
 
@@ -20,7 +23,7 @@ function SocialIcons(c) {
             className="social-icons-cont"
           >
             <FontAwesomeIcon
-              icon={faInstagram}
+              icon={faTwitter}
               className={`faIcons ${c.className}`}
             />
           </a>
@@ -33,11 +36,12 @@ function SocialIcons(c) {
             className="social-icons-cont"
           >
             <FontAwesomeIcon
-              icon={faFacebook}
+              icon={faLinkedin}
               className={`faIcons ${c.className}`}
             />
           </a>
         </li>
+
         <li>
           <a
             href=""
@@ -46,7 +50,7 @@ function SocialIcons(c) {
             className="social-icons-cont"
           >
             <FontAwesomeIcon
-              icon={faYoutube}
+              icon={faGithub}
               className={`faIcons ${c.className}`}
             />
           </a>

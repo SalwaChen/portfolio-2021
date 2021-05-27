@@ -20,6 +20,17 @@
     height: 120px;
   }
 }
+.avatar-img {
+  box-shadow: 2px 4px #ba7770;
+  border-radius: 12px;
+  width: 62px;
+  height: 68px;
+}
+#line-road {
+  margin-top: 50px;
+  width: 600px;
+  border-bottom: 8px solid $sage;
+}
 // .text {
 //   width: 75%;
 // }

@@ -14,56 +14,15 @@ function Footer() {
     <Container fluid className="footer-container">
       <div className="footer-row">
         <div className="address">
-          <span>Find Us</span>
-          <span>Paris, France</span>
+          <span>Location</span>
+          <span>Tel-aviv Yafo</span>
         </div>
         <div className="footer-icons">
           <SocialIcons className="social-icons" />
-          {/* <ul className="social-menu-footer">
-            <li>
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icons"
-              >
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  className="fa-footer instagram"
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icons"
-              >
-                <FontAwesomeIcon
-                  icon={faFacebook}
-                  className="fa-footer facebook"
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="s"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icons"
-              >
-                <FontAwesomeIcon
-                  icon={faYoutube}
-                  className="fa-footer youtube"
-                />
-              </a>
-            </li>
-          </ul> */}
         </div>
         <div className="contact-us">
-          Contact Us
-          <div>555-555-555</div>
+          Contact Me
+          <div>Salwachen1@gmail.com</div>
         </div>
       </div>
     </Container>

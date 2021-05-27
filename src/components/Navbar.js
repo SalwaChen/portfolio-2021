@@ -1,4 +1,4 @@
-import { React } from "react";
+import React from "react";
 import "./Navbar.scss";
 import { NavLink } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -43,15 +43,17 @@ function Navbar() {
             {/* <FontAwesomeIcon className="fa-nav" icon={faImages} /> */}
             WORK
           </NavLink>
-          <NavLink
-            exact
-            to="/contact"
-            className="nav-links contact"
-            activeClassName="main-nav-active"
-          >
-            {/* <FontAwesomeIcon className="fa-nav" icon={faEnvelope} /> */}
-            CONTACT
-          </NavLink>
+          <div id="border">
+            <NavLink
+              exact
+              to="/contact"
+              className="contact"
+              // activeClassName="main-nav-active"
+            >
+              {/* <FontAwesomeIcon className="fa-nav" icon={faEnvelope} /> */}
+              CONTACT
+            </NavLink>
+          </div>
         </div>
       </nav>
     </Container>

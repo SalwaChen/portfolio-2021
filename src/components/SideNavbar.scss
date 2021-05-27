@@ -64,19 +64,25 @@
 .fa-side-nav {
   display: none;
 }
+.fa-close,
+.fa-side-home {
+  background-color: $sage;
+}
 
 .burger-icon-container {
   display: block;
   cursor: pointer;
   position: absolute;
   font-size: 50px;
-  color: $dark-blue;
   top: 10px;
   margin-left: 20px;
   margin-right: 20px;
 }
 .burger-right {
   right: 0;
+}
+.burger {
+  color: black;
 }
 .side-nav-link {
   background-color: $sage;

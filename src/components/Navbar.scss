@@ -13,13 +13,25 @@
   align-items: center;
 }
 .nav-links {
-  height: 40px;
-  color: black;
+  height: 27px;
+  color: white;
   text-decoration: none;
+  font-size: 17px;
   &:hover {
     text-decoration: none;
-    color: black;
+    color: white;
   }
+}
+.contact {
+  border: 1px solid $sage;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+#border {
+  border: 1px solid $sage;
+  padding: 4px;
 }
 .nav-links:after {
   content: "";
@@ -34,6 +46,7 @@
   background: $sage;
 }
 .main-nav-active {
+  border-bottom: 6px dotted $sage;
   &:hover:after {
     width: 0;
   }
@@ -46,19 +59,4 @@
   display: none;
   margin-left: 5px;
   margin-right: 5px;
-}
-.home {
-  .fa-nav {
-    // color: $light-blue;
-  }
-}
-.about {
-  .fa-nav {
-    // color: $yellow;
-  }
-}
-.contact {
-  .fa-nav {
-    // color: $green;
-  }
 }

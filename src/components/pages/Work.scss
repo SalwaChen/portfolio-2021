@@ -27,6 +27,33 @@ a {
     color: white;
   }
 }
+#cards-container {
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  flex-wrap: wrap;
+  display: flex;
+}
+.code-card {
+  margin-top: 25px;
+  width: 230px;
+  height: 150px;
+  // background-color: #c17c74;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+  .code-img {
+    box-shadow: 6px 8px #ba7770;
+    border-radius: 22px;
+    width: 200px;
+    height: 160px;
+  }
+}
+.code-card:active {
+  background-color: #ba7770;
+  transform: translateY(4px);
+}
 @media (max-width: 768px) {
   .work-cont {
     flex-direction: column;

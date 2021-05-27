@@ -21,7 +21,7 @@ function SideNavbar(p) {
   return (
     <>
       <div onClick={handleClick} className="burger-icon-container">
-        <FontAwesomeIcon icon={faBars} />
+        <FontAwesomeIcon icon={faBars} className="burger" />
       </div>
       <div className="container-side-nav">
         <FontAwesomeIcon

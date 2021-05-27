@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container } from "react-bootstrap";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
@@ -11,9 +11,10 @@ function Contact() {
   return (
     <Container className="contact-cont">
       CONTACT
-      {/* <div className="contact-page">
+      <div className="contact-page">
+        Tweet Me Mail
         <div className="contact-part">
-          <button
+          {/* <button
             type="button"
             className="send out"
             onClick={() => setIsOpen(true)}
@@ -25,9 +26,9 @@ function Contact() {
               setIsOpen={setIsOpen}
               onClose={() => setIsOpen(false)}
             ></Modal>
-          </button>
+          </button> */}
         </div>
-      </div> */}
+      </div>
     </Container>
   );
 }
